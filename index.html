@@ -1,51 +1,32 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Інтелектуальна система пошуку медичних даних на основі RAG та GPT-Neo">
-    <meta name="keywords" content="бакалаврська робота, штучний інтелект, медичні дані, RAG, FAISS, GPT-Neo">
-    <meta name="author" content="Студент ПІБ">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Інтелектуальна система пошуку медичних даних">
-    <meta property="og:description" content="Лендінг для бакалаврської роботи з описом проєкту на базі RAG, FAISS та GPT-Neo">
-    <meta property="og:image" content="assets/preview.png">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://your-domain.com">
-
-    <!-- Schema.org (JSON-LD) -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "Інтелектуальна система пошуку медичних даних",
-            "url": "https://your-domain.com",
-            "author": {
-                "@type": "Person",
-                "name": "Студент ПІБ"
-            },
-            "description": "Лендінг для бакалаврської роботи, який демонструє систему пошуку медичних даних з RAG, FAISS і GPT-Neo"
-        }
-    </script>
-
-    <link rel="canonical" href="https://your-domain.com">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="stylesheet" href="styles/main.css">
-    <title data-lang="title">Інтелектуальна система пошуку медичних даних</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Інтелектуальна система пошуку медичних даних на основі RAG та GPT-Neo" />
+    <meta name="keywords" content="бакалаврська робота, штучний інтелект, медичні дані, RAG, FAISS, GPT-Neo" />
+    <meta name="author" content="Грицай Єгор" />
+    <meta property="og:title" content="Інтелектуальна система пошуку медичних даних" />
+    <meta property="og:description" content="Лендінг для бакалаврської роботи з описом проєкту на базі RAG, FAISS та GPT-Neo" />
+    <meta property="og:image" content="assets/preview.png" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://your-domain.com" />
+    <link rel="icon" href="assets/favicon-32x32.png" type="image/png" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Інтелектуальна система пошуку медичних даних</title>
 </head>
 <body>
 <header>
-    <img src="assets/university-logo.png" alt="Логотип університету" class="logo">
+    <img src="assets/university-logo.png" alt="Логотип університету" class="logo" />
     <nav>
-        <button id="lang-toggle" aria-label="Змінити мову" aria-pressed="false">EN</button>
+        <button id="lang-toggle" aria-label="Змінити мову">EN</button>
     </nav>
 </header>
 
 <main>
     <section>
-        <h1 data-lang="research_title">Інтелектуальна система пошуку медичних даних</h1>
-        <p class="short-desc" data-lang="research_description">Система, що поєднує RAG, FAISS та GPT-Neo для покращення пошуку в медичних базах даних.</p>
+        <h1>Інтелектуальна система пошуку медичних даних</h1>
+        <p class="short-desc">Система, що поєднує RAG, FAISS та GPT-Neo для покращення пошуку в медичних базах даних.</p>
         <ul class="keywords">
             <li>Штучний інтелект</li>
             <li>RAG</li>
@@ -56,16 +37,23 @@
     </section>
 
     <section>
-        <h2 data-lang="goal_title">Мета дослідження</h2>
-        <p data-lang="goal_description">Розробити та реалізувати систему пошуку медичних даних з використанням сучасних методів обробки природної мови.</p>
+        <h2>Актуальність</h2>
+        <p>Зі збільшенням обсягів медичних даних важливо мати інтелектуальні інструменти для їх ефективного аналізу та пошуку.</p>
     </section>
 
     <section>
-        <h2 data-lang="tasks_title">Основні завдання</h2>
+        <h2>Мета дослідження</h2>
+        <p>Розробити та реалізувати систему пошуку медичних даних з використанням сучасних методів обробки природної мови.</p>
+    </section>
+
+    <section>
+        <h2>Основні завдання</h2>
         <ol>
-            <li data-lang="task1">Аналіз існуючих рішень для пошуку медичних даних</li>
-            <li data-lang="task2">Вибір архітектури RAG для реалізації системи</li>
-            <li data-lang="task3">Інтеграція FAISS та GPT-Neo</li>
+            <li>Аналіз існуючих рішень для пошуку медичних даних</li>
+            <li>Вибір архітектури RAG для реалізації системи</li>
+            <li>Інтеграція FAISS та GPT-Neo</li>
+            <li>Розробка та тестування веб-інтерфейсу</li>
+            <li>Оцінка якості отриманих результатів</li>
         </ol>
     </section>
 
@@ -79,16 +67,16 @@
         <p>Покращена точність пошуку, зручність інтерфейсу, висока адаптивність до різних медичних корпусів.</p>
     </section>
 
-    <section aria-labelledby="illustration">
-        <h2 id="illustration">Візуальні матеріали</h2>
-        <img src="assets/project-diagram.png" alt="Діаграма архітектури системи RAG">
+    <section>
+        <h2>Контактна інформація</h2>
+        <p>Email: <a href="mailto:studentsumdu@example.com">studentsumdu@example.com</a></p>
+        <p>Університет: <strong>СумДУ</strong></p>
+        <p><a href="#" target="_blank">Завантажити повний текст роботи</a></p>
     </section>
 
-    <section>
-        <h2 data-lang="contact_title">Контактна інформація</h2>
-        <p data-lang="contact_info">Email: <a href="mailto:student@example.com">studentsumdu@example.com</a></p>
-        <p>Університет: <strong>СумДУ</strong></p>
-        <p><a href="" target="_blank">Завантажити повний текст роботи</a></p>
+    <section aria-labelledby="illustration">
+        <h2 id="illustration">Візуальні матеріали</h2>
+        <img src="assets/project-diagram.png" alt="Діаграма архітектури системи RAG" />
     </section>
 </main>
 
