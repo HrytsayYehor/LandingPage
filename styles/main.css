@@ -14,6 +14,7 @@ header, footer {
 }
 .logo {
     width: 100px;
+    max-width: 100%;
 }
 nav {
     margin-top: 1rem;
@@ -33,6 +34,7 @@ main {
 }
 h1, h2 {
     color: #004080;
+    font-family: 'Arial', sans-serif;
 }
 ul.keywords {
     display: flex;
@@ -52,8 +54,31 @@ img {
     display: block;
     margin-top: 1rem;
 }
+a {
+    text-decoration: none;
+    color: #004080;
+}
+a:hover {
+    color: #005bb5;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 1rem;
+    }
+    header {
+        padding: 1rem;
+    }
+    main {
+        padding: 1rem;
+    }
+    button#lang-toggle {
+        padding: 0.3rem 0.8rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.6rem;
     }
 }
